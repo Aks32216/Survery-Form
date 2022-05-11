@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Mukta:wght@300&family=Tapestry&display=swap');
+/* font-family: 'Caveat', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Tapestry', cursive; */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    color: #fff; 
+}
+
+.main{
+    background-image: url("./survery.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 40vw;
+    margin: auto;
+}
+
+.container{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h1{
+    font-family: 'Tapestry', cursive;
+    font-weight: normal;
+    font-size: 250%;
+    margin: 0px;
+}
+
+h3{
+    font-family: 'Caveat', cursive;
+    font-size: 170%;
+}
+
+.middle{
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.element{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem auto;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+}
+
+label,legend{
+    margin: 0rem 0rem 0.6rem 0rem;
+    font-size: 120%;
+    padding-left: 0.3rem;
+}
+
+input,select{
+    padding: 0.6rem 0.3rem;
+    font-size: 90%;
+    border-radius: 8px;
+}
+
+option{
+    font-size: 120%;
+}
+
+input[type="checkbox"],input[type="radio"]{
+    height: 18px;
+    width: 18px;
+    border-radius: 8px;
+    margin-right: 0.8rem;
+}
+
+textarea{
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem;
+    font-size: 120%;
+}
+
+button{
+    font-family: 'Tapestry', cursive;
+    border-radius: 8px;
+    padding: 0.6rem;
+    font-size: 100%;
+    background-color: #4E9F3D;
+}
